@@ -56,7 +56,7 @@ namespace Prod4
     public class WithLongBarrel : GunDecorator
     {
         float m_LongBarrelAccuracy = 10.0f;
-        float m_LongbarrelRange = 15.0f;
+        float m_LongBarrelRange = 15.0f;
         string prefabPath = "Long Barrel";
         GameObject model; // instantiated prefab
 
@@ -70,11 +70,11 @@ namespace Prod4
 
         public override float GetAccuracy()
         {
-            return base.GetAccuracy() + m_LongbarrelAccuracy;
+            return base.GetAccuracy() + m_LongBarrelAccuracy;
         }
         public override float GetRange()
         {
-            return base.GetRange() + m_LongbarrelRange;
+            return base.GetRange() + m_LongBarrelRange;
         }
     }
 

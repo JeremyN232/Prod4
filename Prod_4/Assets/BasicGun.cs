@@ -12,6 +12,7 @@ namespace Prod4
         float basicRange = 15.0f;
         string prefabPath = "Gun";
         public GameObject model; // instantiated prefab
+  
 
         public float GetAccuracy()
         {
